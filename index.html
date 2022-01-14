@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playfair+Display+SC&family=Newsreader&display=swap" rel="stylesheet">
+    <title>DigitalMuseum</title>
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <canvas></canvas>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <a href="index.html">
+                    <h1>
+                        DigitalMuseum
+                    </h1>
+                </a>
+                <ul>
+                    <li><a href="index.html"><span id="currentPage">Home</span></a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            
+            <section class="fullWidthBackground">
+     
+                <div class="welcomeMessage">
+                    <h2 class="title">Welcome to the digital museum </h2>
+                    <p>
+                        You can buy and sell digital art <a title="login.html" href="login.html">here</a>.
+                    </p>
+                    <p><a href="https://en.wikipedia.org/wiki/Non-fungible_token" title="https://en.wikipedia.org/wiki/Non-fungible_token" target="_blank">What's a NFT?</a></p>
+                </div>
+            </section>
+            
+            <div class="carousel">
+            
+                <nav>
+                <a id="carouselPrev">&#10092;</a> <!--buttons-->
+                <a id="carouselNext">&#10093;</a> 
+                </nav>
+                <div class="carousel-images" id="carouselImages"></div>
+                <p class="carousel-caption" id="carouselCaption"></p>
+            </div>
+
+            <!-- Presentation Site -->
+            
+            <section class="presentationSite">
+                <aside>
+                    <img src="https://images.unsplash.com/photo-1561214115-f2f134cc4912?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=653&q=80">
+                </aside>
+                <aside>
+                    <div>
+                        <h2>
+                            Join thousands of artists
+                        </h2>
+                        <p>Explore the work of thousands of artists from around the world. Don't forget to subscribe to our <a title="contact.html" href="contact.html">Newsletter</a> to receive exclusive content.</p> 
+                    </div>
+                    <div>
+                        <a href="gallery.html">
+                            Visit Gallery &#9758;
+                        </a>
+                    </div>
+                </aside>
+            </section>
+
+        </main>
+
+        <!-- Footer -->
+
+        <footer>
+            <section>
+                <aside>
+                    <h2>Newsletter</h2>
+                    <a title="contact.html" href="contact.html">Subscribe</a>
+                </aside>
+                <aside>
+                    <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+                    <a href="https://www.twitter.com/" target="_blank" class="fa fa-twitter"></a>
+                    <a href="https://www.linkedin.com/" target="_blank" class="fa fa-linkedin"></a>
+                    <a href="https://www.google.com/" target="_blank" class="fa fa-google"></a>
+                </aside>
+            </section>
+            <section>
+                <p>Copyright &copy; DigitalMuseum 2021</p>
+            </section>
+        </footer>
+
+    </div>
+
+</body>
+</html>
